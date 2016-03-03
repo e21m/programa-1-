@@ -1,0 +1,9 @@
+# programa-1-
+Proceso angulos  
+   definir a,b,c,p,area como real  ;	
+   Leer a,b,c;
+   p<-(a+b+c)/2;
+   area<-raiz(p*(p-a)*(p-b)*(p-c));
+   escribir areas ;
+   
+FinProceso
