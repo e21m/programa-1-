@@ -1,0 +1,24 @@
+# programa-1-
+// funcion de base.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+
+
+void main()
+
+{
+  float a,b,c,p,area;
+  cin>>a;
+  cin>>b;
+  area=(a*B)/2;
+  cout <<"el area es: "<<area;  
+  getch() 
+
+}
