@@ -1,0 +1,24 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main ()
+{
+	int n,i,suma,k, x ;
+	cout<<"ingrese un numero natural:";
+	cin>>n;
+	cout<<"ingrese el valor de x :";
+	cin>>x;
+	cout<<"ingrese el valor de k:";
+	cin>>k;
+	for (i=1;i<=n;i++)
+	{
+		suma=suma+i+k;
+		i=i+k+x;
+	}
+	cout<<"la suma es:"<<suma<<endl;
+	getch();
+}
+
